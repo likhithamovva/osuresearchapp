@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "538707615053",
+    "firebase_url": "https://osu-research.firebaseio.com",
+    "project_id": "osu-research",
+    "storage_bucket": "osu-research.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538707615053:android:bbf4452848568ff7",
+        "android_client_info": {
+          "package_name": "edu.okstate.osuresearch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538707615053-n3dqg8f9fhb5bj2ejnvq9lo6r9h2i9t4.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "538707615053-n3dqg8f9fhb5bj2ejnvq9lo6r9h2i9t4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPG6-lpTuQd_6nJqWX3tn18yTjdhZbxYA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/research_app_background"
+    android:orientation="vertical"
+    android:weightSum="5"
+    tools:context="edu.okstate.osuresearch.NewsFeed.NewsFeedFragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:paddingLeft="@dimen/news_feed_divider_height"
+        android:paddingTop="@dimen/news_feed_divider_height"
+        android:text="News Feed"
+        android:textAlignment="textStart"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/news_feed_divider_height"
+        android:layout_weight="4.5">
+
+        <ListView
+            android:id="@+id/news_feed_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+
+
+            android:divider="@android:color/transparent"
+            android:dividerHeight="@dimen/news_feed_divider_height"></ListView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

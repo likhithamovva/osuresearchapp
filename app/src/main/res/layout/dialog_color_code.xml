@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_every_screen"
+    android:orientation="vertical"
+    android:weightSum="5"
+    tools:context="edu.okstate.osuresearch.Calendar.CalendarFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:padding="@dimen/contact_list_view_text_view_padding_left"
+        android:text="Color Codes"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+    <ListView
+        android:id="@+id/dialog_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/news_feed_list_item_padding"
+        android:layout_weight="4"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="@dimen/news_feed_list_item_padding" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/dialog_done_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Done" />
+    </LinearLayout>
+
+</LinearLayout>

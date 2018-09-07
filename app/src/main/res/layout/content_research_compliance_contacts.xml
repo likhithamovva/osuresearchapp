@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="4"
+    android:background="@drawable/research_app_background"
+    android:orientation="vertical"
+    tools:context="edu.okstate.osuresearch.Contact.ContactFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:padding="4dp"
+        android:text="Contacts"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <GridView
+        android:id="@+id/contacts_grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.5"
+        android:horizontalSpacing="10dp"
+        android:numColumns="3"
+        android:padding="4dp"
+        android:verticalSpacing="10dp"></GridView>
+
+
+</LinearLayout>

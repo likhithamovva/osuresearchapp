@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">OSU Research</string>
+    <string name="title_news_feed">Osu Research</string>
+    <string name="title_contact">Osu Research</string>
+    <string name="title_calendar">Osu Research</string>
+    <string name="title_research_week">Osu Research</string>
+    <string name="title_social">Osu Research</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">11GHW4ZoRfVJXOEydhI4PE6hO</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">NkmEHVtNXIkot4P0bIWJGlfb5eI41lY0Oue02E8eP3U8Yxbh81</string>
+    <string name="title_activity_research_compliance_contacts">ResearchComplianceContacts</string>
+    <string name="title_activity_research_week_detail">ResearchWeekDetailActivity</string>
+    <string name="twitter">Twitter</string>
+    <string name="facebook">Facebook</string>
+
+    <string name="facebook_app_key">584300691927823</string>
+    <string name="app_id">edu.okstate.osuresearch</string>
+    <string name="notifications_admin_channel_name">OSU Research</string>
+    <string name="notifications_admin_channel_description">OSU Reseach channel description</string>
+    <string name="channelID">2406</string>
+</resources>

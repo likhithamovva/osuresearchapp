@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/research_app_background"
+    android:orientation="vertical"
+    android:weightSum="5"
+    tools:context="edu.okstate.osuresearch.HomeScreenActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1.5"
+        android:src="@mipmap/ic_osu_logo" />
+
+    <ListView
+        android:id="@+id/home_screen_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/news_feed_list_item_padding"
+        android:layout_marginRight="@dimen/news_feed_list_item_padding"
+        android:layout_marginTop="@dimen/news_feed_list_item_padding"
+        android:layout_weight="3.5"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="@dimen/news_feed_list_item_padding"></ListView>
+
+</LinearLayout>

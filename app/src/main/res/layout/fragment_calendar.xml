@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/calendar_list_view_main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.okstate.osuresearch.Calendar.CalendarFragment">
+
+    <ListView
+        android:id="@+id/calendar_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/orange_gradient_drawable"
+
+        android:divider="@android:color/transparent"
+        android:dividerHeight="1.2dp" />
+
+</RelativeLayout>

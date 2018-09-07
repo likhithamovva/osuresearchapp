@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+
+        android:id="@+id/search"
+        android:title="search"
+        android:icon="@drawable/ic_orange_search_icon"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="collapseActionView|ifRoom"
+        android:orderInCategory="0"
+        />
+    <item
+        android:id="@+id/color_code"
+        android:title="Color codes"
+        android:icon="@drawable/ic_orange_color_code"
+        app:showAsAction="always"
+        android:orderInCategory="1"
+        />
+</menu>

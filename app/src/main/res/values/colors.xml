@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="strokeGray">#e1e1e1</color>
+    <color name="backgroundGradientStartColor">#ef6e0b</color>
+    <color name="backgroundGradientEndColor">#ec976d</color>
+    <color name="colorCodeVPROffice">#f07e0c</color>
+    <color name="colorCodeAnnualEvents">#696969</color>
+    <color name="colorCodeAgriculture">#b8b8b8</color>
+    <color name="colorCodeArts">#171c98</color>
+    <color name="colorCodeBusiness">#137f34</color>
+    <color name="colorCodeEducation">#f3f710</color>
+    <color name="colorCodeEngineering">#a700f2</color>
+    <color name="colorCodeHumanSciences">#8f6640</color>
+    <color name="colorCodeVeternity">#ef000b</color>
+    <color name="colorCodeGradCollege">#1cc9f2</color>
+    <color name="colorCodeLibrary">#b29d81</color>
+    <color name="colorCodeTechnologyDevelopmentCenter">#77b531</color>
+    <color name="colorCodeHealthSciences">#ef62e8</color>
+
+</resources>
